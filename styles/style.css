@@ -7,3 +7,189 @@
   font-weight: 400;
   font-style: normal;
 }
+
+
+/* @import url('https://fonts.cdnfonts.com/css/miama');
+
+#miama-nav-font{
+    font-family: 'Miama';
+    font-weight: 400;
+    font-size: 60px;
+    font-style: normal;
+} */
+
+                
+
+/* shared style */
+
+.display-flex{
+    display: flex;
+}
+
+
+/* white 100% */
+/* .text-white{
+    color: #FFFFFF;
+} */
+
+/* white 50% */
+/* .text-light-white{
+    color: rgba(255, 255, 255, 0.5);
+} */
+/* Text size -small */
+/* .text-small-size{
+    font-weight: 400;
+    font-size: 0.87rem;
+    text-align: center;
+} */
+/* Text size -large */
+/* .tex-size-large{
+    font-weight: 900;
+    font-size: 2.8rem;
+} */
+
+/* Text size -medium */
+
+.btn-primary{
+    background-color: #E6533C;
+    color: #FFFFFF;
+    padding: 1rem 2.9rem;
+    font-size: .75rem;
+    font-weight: 100;
+    border: none;
+    border-radius: 35px;
+}
+
+#btn-unique{
+    background-color: transparent;
+    /* color: #FFFFFF; */
+    padding: 1rem 2.9rem;
+    font-size: 0.75rem;
+    font-weight: 300;
+    border: 1px solid black;
+    border-radius: 35px;
+}
+
+/* background color */
+/* .bg-dark{
+    background-color: #111111;
+}
+.bg-gray{
+    background-color: #222222;
+} */
+/* header style */
+
+/* navbar related styles */
+#home{
+    background-color: #E6533C;
+    width: 60px;
+    height: 25px;
+    border: none;
+    border-radius: 35px;
+    text-align: center;
+}
+.brand-name{
+    color: #E6533C;
+    font-weight: 800;
+    font-size: 26px;
+    font-style: italic;
+}
+.navbar{
+    width: 1000px;
+    height: 40px;
+    justify-content: space-between;
+    align-items: center;
+    margin: 50px 140px 0 140px;
+}
+ 
+.nav-item{
+    list-style: none;
+    margin-right: 30px;
+}
+
+.nav-link{
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 12px;
+}
+
+header{
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+/* size */
+
+/* banner related styles */
+
+.banner{
+    justify-content: center;
+    margin-left: 140px;
+    margin-right: 120px;
+    gap: 400px;
+} 
+
+.banner-content{
+   width: 400px;
+   height: 200px;
+}
+/* .banner-title{
+    font-weight: 900;
+    font-size: 3rem;
+    line-height: 5.85rem;
+    margin-bottom: 28px; 
+}  */
+
+.banner-description{
+    font-weight: 400;
+    font-size: 12px;
+} 
+
+.banner-image{
+    display: block;
+    background-size: contain;
+    background-position: center;
+}
+.banner img{
+    /* width: 100%; */
+    width: 300px;
+    height: 480px;
+}
+.banner-btn{
+    width: 360px;
+    height: 45px;
+    gap:14px;
+}
+/* main style */
+/* main > section {
+    margin-top: 100px;
+} */
+/* change your habits section */
+
+/* .habit-img-container img{
+    background-size: cover;
+    background-position: center;
+    border-radius: 50%;
+}
+.habit-img-container{
+    max-width: 1044px;
+    max-height: 452px;
+    gap: 58px;
+}
+
+.new-habits{
+    text-align: center;
+}
+/* Run an Extra Mile Easily section */
+/* .extra-mile{
+    max-width: 1060px;
+    max-height: 371px;
+    gap: 150px;
+}
+.extra-mile img{
+    width: 366px;
+    height: 312px;
+    margin: 30px;
+    border-radius: 18px; */
+/* } */ 
+/* footer style */
