@@ -9,14 +9,15 @@
 }
 
 
-/* @import url('https://fonts.cdnfonts.com/css/miama');
+@import url('https://fonts.cdnfonts.com/css/miama');
 
 #miama-nav-font{
     font-family: 'Miama';
-    font-weight: 400;
-    font-size: 60px;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-size: 6rem;
     font-style: normal;
-} */
+}
 
                 
 
@@ -37,16 +38,15 @@
     color: rgba(255, 255, 255, 0.5);
 } */
 /* Text size -small */
-/* .text-small-size{
+.text-small-size{
     font-weight: 400;
-    font-size: 0.87rem;
-    text-align: center;
-} */
+    font-size: 0.65rem;
+} 
 /* Text size -large */
-/* .tex-size-large{
+.tex-size-large{
     font-weight: 900;
-    font-size: 2.8rem;
-} */
+    font-size: 2.2rem;
+}
 
 /* Text size -medium */
 
@@ -123,26 +123,32 @@ header{
 /* banner related styles */
 
 .banner{
-    justify-content: center;
+    /* justify-content: center; */
     margin-left: 140px;
-    margin-right: 120px;
-    gap: 400px;
+    margin-right: 100px;
+    justify-content: space-between;
+    align-items: center;
+    gap: 285px;
 } 
 
 .banner-content{
    width: 400px;
-   height: 200px;
+   height: 400px;
+   padding-right: 80px;
+   margin-top: 90px;
+   
 }
-/* .banner-title{
+.banner-title{
     font-weight: 900;
     font-size: 3rem;
-    line-height: 5.85rem;
-    margin-bottom: 28px; 
-}  */
+    margin-bottom: 28px;
+    line-height: 50px;
+} 
 
 .banner-description{
     font-weight: 400;
     font-size: 12px;
+    margin-bottom: 28px;
 } 
 
 .banner-image{
@@ -151,9 +157,9 @@ header{
     background-position: center;
 }
 .banner img{
-    /* width: 100%; */
-    width: 300px;
-    height: 480px;
+    width: 100%;
+    width: 260px;
+    height: 430px;
 }
 .banner-btn{
     width: 360px;
@@ -164,32 +170,71 @@ header{
 /* main > section {
     margin-top: 100px;
 } */
-/* change your habits section */
 
-/* .habit-img-container img{
+/* change your habits section */
+.habits{
+    max-width: 1044px;
+    height: 450px;
+    margin: 100px 140px 0 140px;
+}
+.habits div{
+    text-align: center;
+}
+.new-habits{
+    width: 450px;
+    height: 40px;
+    margin-left: 250px;
+}
+.habit-title{
+    margin-bottom: 0;
+}
+.habit-img-container{
+    max-width: 1044px;
+    height: 220px;
+    gap: 58px;
+    margin-top: 30px;
+}
+ .habit-img-container img{
     background-size: cover;
     background-position: center;
     border-radius: 50%;
 }
-.habit-img-container{
-    max-width: 1044px;
-    max-height: 452px;
-    gap: 58px;
+.habit-img{
+    width: 110px;
+    height: 110px;
+    margin: 60px 20px 25px 20px;
 }
 
-.new-habits{
-    text-align: center;
-}
+
+
 /* Run an Extra Mile Easily section */
-/* .extra-mile{
-    max-width: 1060px;
-    max-height: 371px;
-    gap: 150px;
+.extra-mile{
+    background-color: #222222;
+    width: 900px;
+    height: 290px;
+    margin: 0 auto;
+    gap: 180px;
+    border-radius: 18px;
+
 }
+
 .extra-mile img{
-    width: 366px;
-    height: 312px;
-    margin: 30px;
-    border-radius: 18px; */
-/* } */ 
+    width: 78%;
+    height: 88%;
+    border-radius: 18px;
+    margin: 18px 30px 10px 80px;
+}
+.run-content{
+    width: 260px;
+    height: 160px;
+    margin: 20px 0 40px 50px;
+}
+.run-title{
+    line-height: 40px;
+    padding: none;
+    margin-bottom: 10px;
+}
+.btn-run {
+    margin-top: 20px;
+}
 /* footer style */
